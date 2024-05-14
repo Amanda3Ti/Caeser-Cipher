@@ -1,5 +1,16 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    
+    <div class="info">
+        O Código de César, como ficou conhecido era um sistema simples de substituição, no qual cada letra da mensagem original era trocada pela letra que se situa três posições à sua frente. Desta forma, a letra A era trocada por D, B por E, e assim por diante.
+    </div>
+    <div class="Cipher Container">
+        <a href="/encode">
+            <div class="cipher-container-item">
+                <img class="header-logo" src="{{ url_for('static', filename='images/logo.jpeg') }}">
+            </div>
+        </a>
+
+        <a href="/decode"></a>
+    </div>
 {% endblock %}
